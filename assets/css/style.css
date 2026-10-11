@@ -1,0 +1,130 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+
+body{
+    background: #C0C0C0;
+}
+
+.encabezado{
+    background-image:linear-gradient(to left, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url("../img/Super-Selectos-El-Salvador.jpg");;
+    background-repeat: no-repeat;
+    background-position:bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 300px;
+    width: 100%;
+}
+
+.encabezado-seccion{
+    height: 100%;
+    display: flex;
+    align-items:center;
+    color:#DCDCDC;
+}
+
+.encabezado-articulo{
+    flex: 1;
+    height: 70%;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    
+}
+
+.encabezado-contenedor1 h1{
+    width:50%;
+}
+
+.encabezado-contenedor2{   
+   width: 55%; 
+   margin: auto; 
+   background: #2F4F4F;
+   border-radius: 10px;
+   padding: 0 0 20px 30px;
+}
+
+.encabezado-contenedor2 > *{
+    margin-top: 15px;
+}
+
+ul li{
+    padding-bottom: 5px;
+}
+
+main h2{
+    color: #2F4F4F;
+}
+
+.main-seccion, .main-seccion2{
+    display: flex;
+    gap: 15px;
+}
+
+.main-articulo, .main-seccion2 > *, .main-section3 article{
+    flex: 1;
+    padding: 10px 20px 5px 20px;
+   
+}
+
+.flex-articulo1{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.main-contenedor > *, .padding-articulo > *, .articulo-seccion3 > *{
+    margin: 8px 0 8px 0;
+}
+
+.articulo-seccion2 img{
+    width: 100%;
+    margin-top: 8px;
+}
+
+.articulo2-seccion2 img{
+    width: 100%;
+    height: 300px;
+   
+}
+
+.evidencias{
+    display: flex;
+    height: 90%;
+    margin-top: 8px;
+}
+
+.evidencias div{
+    background-color: #fff;
+    
+}
+
+.evidencias :first-child{
+    margin-right: 5px;
+}
+
+.evidencias p{
+    padding: 20px 15px 5px 25px;
+    color: #00008B;
+}
+
+.dividir{
+    border: rgb(209, 206, 206) 0.5px solid;
+}
+
+.main-section3{
+    display: flex;
+}
+
+.main-section3 p, .main-section3 ul li{
+    margin-bottom: 8px;
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
+}
