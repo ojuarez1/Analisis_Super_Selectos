@@ -84,6 +84,7 @@ main h2{
 .articulo-seccion2 img{
     width: 100%;
     margin-top: 8px;
+    height: 90%;
 }
 
 .articulo2-seccion2 img{
@@ -108,7 +109,7 @@ main h2{
 }
 
 .evidencias p{
-    padding: 20px 15px 5px 25px;
+    padding: 5px 15px 5px 25px;
     color: #00008B;
 }
 
