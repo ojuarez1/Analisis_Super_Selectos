@@ -127,5 +127,62 @@ main h2{
 
 footer{
     padding: 20px;
-    text-align: center;
+    text-align:center;
+
+}
+
+@media (max-width: 480px) {
+    
+    .encabezado{
+        background-position:initial;
+        background-attachment: initial;
+        background-size:100vw;
+    }
+    .encabezado-seccion, .main-seccion, .main-seccion2, .articulo-seccion2, .main-section3{           
+        flex-wrap: wrap;
+        
+    }
+
+    .encabezado-articulo{
+        flex: none;
+        height: 40%;
+    }
+
+    .encabezado-contenedor1 h1{
+        width:95vw;
+    }
+
+    .encabezado-contenedor2{
+        width:60vw;
+        padding: 0 0 5px 20px;
+    }
+
+    .encabezado-contenedor2 > *{
+        margin-top: 5px;
+        font-size: 12px;
+    }  
+    
+    .articulo-seccion2{
+        flex: none;
+    }
+
+    .articulo-seccion2{
+        width: 100vw;
+    }
+
+    .evidencias{
+       flex-wrap: wrap;
+       gap: 5px;
+       height: auto;
+    }
+
+    .evidencias :first-child {
+        margin: 0;
+        width: 90vw;       
+    }
+
+   .main-section3{
+    display: block;
+   }
+
 }
