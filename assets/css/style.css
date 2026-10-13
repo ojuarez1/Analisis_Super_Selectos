@@ -186,3 +186,13 @@ footer{
    }
 
 }
+
+@media (max-width: 440px) {
+    .encabezado-contenedor2{
+        width: 75vw;
+    }
+
+    .flex-articulo1{
+        display: block;
+    }
+}
